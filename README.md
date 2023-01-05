@@ -17,4 +17,12 @@
 
 ---
 
-## Part 3 ( [f_3.py]() )
+## Part 3 ( [f_3.py](https://github.com/dolcezza-ua/Python/blob/main/f_3.py) )
+
+---
+
+## Part 4 ( [f_4.py]() )
+
+---
+
+## Part 5 ( [f_5.py]() )
