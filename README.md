@@ -9,7 +9,7 @@
 
 ---
 
-## Part 2 ( [f_2.py]() )
+## Part 2 ( [f_2.py](https://github.com/dolcezza-ua/Python/blob/main/f_2.py) )
 
 - Function basics
 - Function declaration
