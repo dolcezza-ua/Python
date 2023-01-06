@@ -32,4 +32,17 @@
 - If return
 - Conditional operator
 
-## Part 5 ( [f_5.py]() )
+---
+
+## Part 5 ( [f_5.py](https://github.com/dolcezza-ua/Python/blob/main/f_5.py) )
+
+- For loop
+- While loop
+
+---
+
+## Part 6 ( [f_6.py]() )
+
+---
+
+## Part 7 ( [f_7.py]() )

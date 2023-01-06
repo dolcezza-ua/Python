@@ -11,7 +11,7 @@ elif age > 3:
 else:
     print("Baby")
 
-# 2. Write a program that calculates the amount a customer who rents an apartment must pay.  Rent for the first three days - 50 eur per day, from 4 to 7 days - 40 eur per day and more than 7 days - 30 eur per day.
+# 2. Create a program that calculates the amount a customer who rents an apartment must pay.  Rent for the first three days - 50 eur per day, from 4 to 7 days - 40 eur per day and more than 7 days - 30 eur per day.
 
 short_term_cost = 50   # days 1-3
 middle_term_cost = 40  # days 4-7
