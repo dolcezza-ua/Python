@@ -19,6 +19,10 @@
 
 ## Part 3 ( [f_3.py](https://github.com/dolcezza-ua/Python/blob/main/f_3.py) )
 
+- Comparison operators
+- Operator AND
+- Operator OR
+
 ---
 
 ## Part 4 ( [f_4.py]() )
