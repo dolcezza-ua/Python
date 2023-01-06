@@ -25,8 +25,11 @@
 
 ---
 
-## Part 4 ( [f_4.py]() )
+## Part 4 ( [f_4.py](https://github.com/dolcezza-ua/Python/blob/main/f_4.py) )
 
----
+- If
+- Else if
+- If return
+- Conditional operator
 
 ## Part 5 ( [f_5.py]() )
