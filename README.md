@@ -41,8 +41,18 @@
 
 ---
 
-## Part 6 ( [f_6.py]() )
+## Part 6 ( [f_6.py](https://github.com/dolcezza-ua/Python/blob/main/f_6.py) )
+
+- Strings len
+- Get string character
+- String iteration
+- Find a substring
+- String case swapping
+- Case insensitive search
+- Interactive programs, input
+- String slices
+- Conversion to string
 
 ---
 
-## Part 7 ( [f_7.py]() )
+## Part 7 ( [f_7.py](https://github.com/dolcezza-ua/Python/blob/main/f_7.py) )
