@@ -3,9 +3,6 @@
 a = "Michael"
 b = "Max"
 
-a = "Michael"
-b = "Max"
-
 print(len(a))
 print(len(b))
 
@@ -103,8 +100,8 @@ print(message.lower())                         # my name is olha.
 model = "Apple Iphone 14"
 search = "iph"
 
-normalized_model = model.lower()             # or normalized_model = model.upper()
-normalized_search = search.lower()           # or normalized_search = search.upper()
+normalized_model = model.lower()             
+normalized_search = search.lower()           # or normalized_model = model.upper() and normalized_search = search.upper()
 
 if normalized_search in normalized_model:
     print("Found ! ")
@@ -145,7 +142,7 @@ while True:
     search = input("Enter search text: ")
     find_model(search)
 
-# 8. Get a part of the "txt" string using the slice function.
+# 8. Get a part of the "txt" string using the "slice" function.
 
 txt = "0123456789"
 
@@ -180,7 +177,7 @@ print(txt[6:2:-1])     # "6543"
 
 print(txt[8:1:-2])     # "8642"
 
-# 9. Convert the number n to a string in three different ways.
+# 9. Convert the number "n" to a string in three different ways.
 
 n = -123
 
@@ -188,9 +185,9 @@ first_string = str(n)
 second_string = "%s" % n
 third_string = f"{n}"
 
-print(first_string)    # "-123"
-print(second_string)   # "-123"
-print(third_string)    # "-123"
+print(first_string)    # -123
+print(second_string)   # -123
+print(third_string)    # -123
 
 # Check the data type of first_string, second_string and third_string using the type function.
 
@@ -198,7 +195,7 @@ print(type(first_string))     # <class 'str'>
 print(type(second_string))    # <class 'str'>
 print(type(third_string))     # <class 'str'>
 
-# 10. The new boss, as it turns out, just hates vowels, so you need to remove them from all documentation. Write a function "remove_vowels" (in two different ways) that takes the string "document" and returns a new string with all vowels removed (vowels are `aeiouy' in any case).
+# 10. The new boss, as it turns out, just hates vowels, so you need to remove them from all documentation. Create a function "remove_vowels" (in two different ways) that takes the string "document" and returns a new string with all vowels removed (vowels are `aeiouy' in any case).
 
 def remove_vowels(document: str) -> str:
 
@@ -209,9 +206,9 @@ def remove_vowels(document: str) -> str:
             result_document += document[i]
     return result_document
 
-print(remove_vowels("captain"))             # "cptn"
-print(remove_vowels("I like my boss"))      # " lk m bss"
-print(remove_vowels("350 euro"))            # "350 r"
+print(remove_vowels("captain"))             # cptn
+print(remove_vowels("I like my boss"))      #  lk m bss
+print(remove_vowels("350 euro"))            # 350 r
 
 
 
@@ -223,9 +220,9 @@ def remove_vowels(document: str) -> str:
             result_document += letter
     return result_document
 
-print(remove_vowels("captain"))              # "cptn"
-print(remove_vowels("I like my boss"))       # " lk m bss"
-print(remove_vowels("350 euro"))             # "350 r"
+print(remove_vowels("captain"))              # cptn
+print(remove_vowels("I like my boss"))       #  lk m bss
+print(remove_vowels("350 euro"))             # 350 r
 
 # 11. Create a function "make_abbr" that takes a string of words "words" and returns an abbreviation from them in uppercase. The string "words" contains one or more words separated by a space. And if "words" does not contain any character, return an empty string.
 # Example:
@@ -240,9 +237,9 @@ def make_abbr(words: str) -> str:
         abbr += i[0]
     return(abbr.upper())
 
-print(make_abbr("national aeronautics space administration"))            # "NASA"
-print(make_abbr("central processing unit"))                              # "CPU"
-print(make_abbr("simplified molecular input line entry specification"))  # "SMILES"
+print(make_abbr("national aeronautics space administration"))            # NASA
+print(make_abbr("central processing unit"))                              # CPU
+print(make_abbr("simplified molecular input line entry specification"))  # SMILES
 
 # 12. Create a function "decrypt_message" that takes the string "message" and returns a new string where the characters from "message" are in reverse order.
 
@@ -250,8 +247,8 @@ def decrypt_message(message: str) -> str:
 
     return message[::-1]
 
-print(decrypt_message("!!!reeb gniknird ekil eW"))   # "We like drinking beer!!!"
-print(decrypt_message("cimednap surivanoroc A"))     # "A coronavirus pandemic"
+print(decrypt_message("!!!reeb gniknird ekil eW"))   # We like drinking beer!!!
+print(decrypt_message("cimednap surivanoroc A"))     # A coronavirus pandemic
 
 # 13. Create a function "happy_birthday" that will read the string "name" using the "input" function and output a greeting string in the format "Happy birthday, {name}!".
 
