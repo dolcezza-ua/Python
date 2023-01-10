@@ -56,3 +56,10 @@
 ---
 
 ## Part 7 ( [f_7.py](https://github.com/dolcezza-ua/Python/blob/main/f_7.py) )
+
+- List
+- List add an element, append, insert, pop, extend
+- List creation
+- List search
+- List slice
+- Number rounding

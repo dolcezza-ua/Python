@@ -146,6 +146,8 @@ while True:
 
 txt = "0123456789"
 
+# Take the string from index `1` to index `4`
+
 sl = slice(1, 5)       # or print(txt[1:5]) or print(txt[1:5:1])
 print(txt[sl])
 
@@ -167,15 +169,15 @@ print(txt[::2])
 
 # Get the reversed string
 
-print(txt[::-1])       # "9876543210"
+print(txt[::-1])       # 9876543210
 
 # Take the string from index `6` to index `3`, using negative step `-1`
 
-print(txt[6:2:-1])     # "6543"
+print(txt[6:2:-1])     # 6543
 
 # Take the string from index `8` to index `2`, using negative step `-2`
 
-print(txt[8:1:-2])     # "8642"
+print(txt[8:1:-2])     # 8642
 
 # 9. Convert the number "n" to a string in three different ways.
 
